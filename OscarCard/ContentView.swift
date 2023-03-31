@@ -13,7 +13,7 @@ struct ContentView: View {
             Color(red: 0.09, green: 0.63, blue: 0.52, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
             Text("Òscar Muntal")
-                .font(.title)
+                .font(Font.custom("Pacifico-Regular", size: 50))
                 .bold()
                 .foregroundColor(.white)
         }

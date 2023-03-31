@@ -11,6 +11,7 @@
 		1F01EFE129D6F78B007E11C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01EFE029D6F78B007E11C4 /* ContentView.swift */; };
 		1F01EFE329D6F792007E11C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F01EFE229D6F792007E11C4 /* Assets.xcassets */; };
 		1F01EFE629D6F792007E11C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F01EFE529D6F792007E11C4 /* Preview Assets.xcassets */; };
+		1F01EFEF29D6FF7F007E11C4 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F01EFED29D6FC4B007E11C4 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1F01EFE029D6F78B007E11C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F01EFE229D6F792007E11C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F01EFE529D6F792007E11C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F01EFED29D6FC4B007E11C4 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1F01EFEE29D6FE86007E11C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		1F01EFDD29D6F78B007E11C4 /* OscarCard */ = {
 			isa = PBXGroup;
 			children = (
+				1F01EFEE29D6FE86007E11C4 /* Info.plist */,
 				1F01EFDE29D6F78B007E11C4 /* OscarCardApp.swift */,
 				1F01EFE029D6F78B007E11C4 /* ContentView.swift */,
 				1F01EFE229D6F792007E11C4 /* Assets.xcassets */,
+				1F01EFEC29D6FC3A007E11C4 /* fonts */,
 				1F01EFE429D6F792007E11C4 /* Preview Content */,
 			);
 			path = OscarCard;
@@ -65,6 +70,14 @@
 				1F01EFE529D6F792007E11C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F01EFEC29D6FC3A007E11C4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F01EFED29D6FC4B007E11C4 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F01EFEF29D6FF7F007E11C4 /* Pacifico-Regular.ttf in Resources */,
 				1F01EFE629D6F792007E11C4 /* Preview Assets.xcassets in Resources */,
 				1F01EFE329D6F792007E11C4 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +286,7 @@
 				DEVELOPMENT_TEAM = Q9RJPHW4B8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OscarCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +316,7 @@
 				DEVELOPMENT_TEAM = Q9RJPHW4B8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OscarCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
