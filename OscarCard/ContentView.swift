@@ -17,7 +17,10 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150, height: 150)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle().stroke(Color.white, lineWidth: 5)
+                    )
                 Text("Òscar Muntal")
                     .font(Font.custom("Pacifico-Regular", size: 50))
                     .bold()
@@ -25,7 +28,19 @@ struct ContentView: View {
                 Text("iOS Developer")
                     .foregroundColor(.white)
                     .font(.system(size: 25))
+                Divider()
+                RoundedRectangle(cornerRadius: 25)
+                    .fill(Color.white)
+                    .frame(height: 50)
+                    .overlay(
+                        HStack {
+                            Image(systemName: "phone.fill")
+                                .foregroundColor(.green)
+                            Text("+34 123 456 789")
+                        }
+                    )
 
+                
             }
         }
     }
