@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(.green)
+            Color(red: 0.09, green: 0.63, blue: 0.52, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
-            Text("Hello, world!")
-                .padding()
+            Text("Òscar Muntal")
+                .font(.title)
+                .bold()
+                .foregroundColor(.white)
         }
     }
 }
